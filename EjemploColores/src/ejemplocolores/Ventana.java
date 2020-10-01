@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 public class Ventana extends JFrame implements ActionListener {
@@ -110,6 +111,7 @@ public class Ventana extends JFrame implements ActionListener {
         // Color color2 = new Color(hex("00E676"));
         // Color color3 = new Color(hex("F57F17"));
         // Recuerden que este metodo recibe cadenas y el otro recibe numeros enteros
+        JOptionPane.showMessageDialog(this, "Se va a cambiar el color del fondo segun HEX");
         this.getContentPane().setBackground(fondo);
     }
     else if(ae.getSource() == prueba2)
@@ -134,6 +136,7 @@ public class Ventana extends JFrame implements ActionListener {
         // Donde B, es el numero en B de la pagina
         
         // Y ya pueden usar los colores que ustedes quieran.
+                JOptionPane.showMessageDialog(this, "Se va a cambiar el color del fondo segun RGB");
         this.getContentPane().setBackground(fondo);
     }
     }
