@@ -139,6 +139,7 @@ public class Ventana extends JFrame implements ActionListener {
         JOptionPane.showMessageDialog(this, "Se va a cambiar el color del fondo segun RGB");
         this.getContentPane().setBackground(fondo);
         System.out.println("Este es un mensaje bonito que se ve al cambiar de color el fondo");
+        // ESTOY AGREGANDO MAS CODIGO INTERESANTE
     }
     }
     
